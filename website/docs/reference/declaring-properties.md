@@ -109,12 +109,6 @@ You can find an exhaustive list of each property for a resource in the following
 <FAQ src="why-version-2" />
 <FAQ src="yaml-file-extension" />
 
-## Usage
-
-### Versioning schema.yml
-
-schema.yml files must specify a version. The only currently supported version for schema.yml files is `version: 2`. This version identifier makes it possible for new dbt functionality to be incorporated into the schema.yml syntax in future releases.
-
 ## Troubleshooting Common Errors
 
 ### Invalid test config given in [model name]
