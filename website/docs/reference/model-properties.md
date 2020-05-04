@@ -8,8 +8,8 @@ Models may be described in the `source-paths` directories configured in your `db
 version: 2
 
 models:
-  - name: <model name>
-    description: <markdown_string>
+  - [name](model_name): <model name>
+    [description](description): <markdown_string>
     docs:
       show: true | false
     meta: {<dictionary>}
